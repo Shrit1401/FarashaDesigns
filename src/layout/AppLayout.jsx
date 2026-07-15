@@ -147,7 +147,7 @@ export default function AppLayout({ roleKey }) {
   return (
     <div className="flex min-h-screen bg-[var(--c-bg)]">
       {/* Desktop sidebar */}
-      <aside className="sticky top-0 hidden h-screen w-[260px] shrink-0 flex-col gap-[22px] border-r border-[var(--c-border)] bg-[var(--c-card)] p-6 shadow-[var(--c-shadow)] lg:flex">
+      <aside className="sticky top-0 hidden h-screen w-[260px] shrink-0 flex-col gap-[22px] overflow-y-auto border-r border-[var(--c-border)] bg-[var(--c-card)] p-6 shadow-[var(--c-shadow)] lg:flex">
         <SidebarContent role={role} />
       </aside>
 
