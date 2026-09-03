@@ -18,8 +18,8 @@ export const THEMES = [
 const DEFAULT_BRAND = {
   name: 'Farasha',
   logo: null, // data URL when the user uploads a custom logo
-  primary: '#7c3aed',
-  secondary: '#8b5cf6',
+  primary: '#049952',
+  secondary: '#57e197',
 }
 
 function hexToSoft(hex, alpha) {
@@ -105,8 +105,8 @@ export function useTheme() {
  */
 const CHART_COLORS = {
   light: {
-    primary: '#2563eb',
-    primaryLight: '#3b82f6',
+    primary: '#049952',
+    primaryLight: '#57e197',
     grid: '#e2e8f0',
     axis: '#94a3b8',
     card: '#ffffff',
@@ -119,11 +119,11 @@ const CHART_COLORS = {
     purple: '#8b5cf6',
   },
   dark: {
-    primary: '#2563eb',
-    primaryLight: '#60a5fa',
-    grid: '#1e293b',
-    axis: '#64748b',
-    card: '#0f172a',
+    primary: '#049952',
+    primaryLight: '#57e197',
+    grid: '#0f4236',
+    axis: '#6b9c88',
+    card: '#07312a',
     heading: '#f1f5f9',
     green: '#4ade80',
     red: '#f87171',

@@ -73,7 +73,7 @@ function SidebarContent({ role, onNavigate }) {
   return (
     <>
       <Link to="/" className="flex justify-center" onClick={onNavigate}>
-        <BrandLogo className="h-[110px] lg:h-[130px]" />
+        <BrandLogo className="h-[76px] lg:h-[88px]" />
       </Link>
       <nav className="flex flex-col gap-2">
         {role.nav.map((item) => {

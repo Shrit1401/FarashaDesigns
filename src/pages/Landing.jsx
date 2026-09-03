@@ -35,7 +35,7 @@ export default function Landing() {
       <div className="absolute top-4 right-4 sm:top-6 sm:right-6">
         <ThemeControls />
       </div>
-      <BrandLogo className="mb-2 h-40" />
+      <BrandLogo className="mb-4 h-32 sm:h-40" />
       <h1 className="text-center text-2xl font-bold text-[var(--c-heading)] sm:text-3xl">
         {brandName} Workforce Portal
       </h1>

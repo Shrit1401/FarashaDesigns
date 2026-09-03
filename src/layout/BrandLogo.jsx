@@ -29,8 +29,8 @@ export default function BrandLogo({ className = '' }) {
   return (
     <img
       src={theme === 'dark' ? logoDark : logo}
-      alt="Farasha"
-      className={`w-auto ${theme === 'dark' ? 'object-contain py-2' : 'rounded-2xl'} ${className}`}
+      alt="Farasha POS & Solutions"
+      className={`w-auto max-w-full object-contain ${theme === 'dark' ? '' : 'rounded-2xl'} ${className}`}
     />
   )
 }
